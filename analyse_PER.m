@@ -1,6 +1,6 @@
 %Load a dataset from PER exp or memory test and perform the analyses over a 5D dataset whose dimensions are
 %[H,W,frames,trials,bee].
-net = importKerasNetwork('\\cimec-storage\albhaa\haaalb001a1p\ettore\important script\PER\Classifier_models\licking_model_100_19M_4.h5')
+%net = importKerasNetwork('file directory') %NETWORK NOT INCLUDED HERE
 %%
 thr=0.8;% probability threshold for  licking
 fps=20;%set the frame rate
