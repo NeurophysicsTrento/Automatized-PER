@@ -172,8 +172,8 @@ for i=1:size(exp_anal,ind)
 end
 %bee=bee+1
 %%
-%Show the respons of the bee by plotting its probability graph and showing
-%its movie with labeled frames
+%Show the response of the bee by plotting its probability graph and showing
+%its movie with labeled frames. REQUIRES THE VIDEO DATA, NOT UPLOADED HERE.
 bee=11;
 cicle=1
 speed=1
@@ -185,15 +185,6 @@ view_PER(exp_anal,data,speed,bee,cicle,pre_stim,t_CS,t_overlap,t_US,fps,manual,m
 %%
 %cicle=cicle+1
 bee=bee+1
-
-%%
-sequence={'ST';'bl'}
-exp_anal=PER_predict(memory_test,net);%analyse movie
-MEM_result=MEM_stat(exp_anal,5,2,fps);
-plot(sum(PER_result)/size(data,4))
-ylim([0,1])
-xlim([0,size(PER_result,2)])
-save('PER_Analyses','exp_anal','PER_result','-v7.3');%nome file sal
 
 
 
