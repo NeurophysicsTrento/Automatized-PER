@@ -16,7 +16,7 @@ off=[0     0     0     0     0     0     0  ];
 outputSingleScan(s, off);%set to zero all the channels
 %%
 %Load the CNN model: set your path
-net = importKerasNetwork('\\cimec-storage\albhaa\haaalb001a1p\ettore\important script\PER\Classifier_models\licking_model_100_19M_4.h5')
+net = importKerasNetwork('file directory') %NETWORK NOT INCLUDED HERE
 %% STIMULI
 %this are fucntions that allow you to activate specific elements of your
 %hardware
