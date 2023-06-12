@@ -49,4 +49,8 @@ tismaq.m: the function for creating a video input object.
 
 All .mat files were written in and run in MATLAB R2021b. 
 Not included: the trained neural network (Matlab variable "net") and the video recordings (Matlab variable "data").
-A detailed description/application can be found at: [publication link]
+A detailed description/application can be found at: 
+
+Temporal dynamics of honeybee learning and decision-making are revealed by a novel automated PER system
+Heather Strelevitz, Ettore Tiraboschi, Albrecht Haase
+bioRxiv 2023.06.10.544458; doi: https://doi.org/10.1101/2023.06.10.544458
